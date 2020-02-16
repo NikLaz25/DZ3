@@ -1,0 +1,13 @@
+def my_func():
+    x1 = int(input('Введите х1: '))
+    x2 = int(input('Введите х2: '))
+    # """Запросил аргументы"""
+    if x2 == 0:
+        print('Деление на 0')
+        return
+    div = x1 / x2
+    #"""Задал тело функции"""
+    return div
+result = my_func()
+print('Ответ', result)
+#print(my_func()) # так тоже можно
